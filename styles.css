@@ -1,0 +1,82 @@
+html{
+    background: linear-gradient(to bottom, #45484D 0%, #000000 100% );
+    background-repeat: no-repeat;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+.calculator{
+    width: 300px;
+    height: 475px;
+    background-color: #282927;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #000;
+    text-align: center;
+}
+.calculator-screen{
+    width: 90%;
+    height: 100px;
+    font-size: 50px;
+    padding: 0;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    text-align: right;
+    background: transparent;
+    font-weight: 100;
+}
+.calculator-ketpad{
+    border-top: 1px solid #5d5d5c;
+
+}
+.btn{
+    background-color: #4d5d5c;
+    width: 75px;
+    height: 75px;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    border: 0;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transition: .5s all ease;
+    font-weight: 500;
+}
+.btn:nth-child(4n),
+.btn:last-child{
+    border-right: 0;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:active{
+    background-color: #4d5d5c80;
+    border-radius: 10px;
+    color: white;
+
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-double{
+    width: 150px;
+    text-align: left;
+    padding-left: 30px;
+}
+.btn-dark{
+    background-color: #3c3d3c;
+}
+.btn-dark:focus.btn-dark:active{
+    background-color: #3c3d3c80;
+}
+.btn-orange{
+    background-color: #ff940e;
+}
+.btn-orange:focus.btn-orange:active{
+    background-color: #ff940e80;
+}
