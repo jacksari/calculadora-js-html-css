@@ -104,9 +104,9 @@ function calculation(){
     }
     if(this.operation === '/' && inputScreen.value !== ''){
         if(valueOne !== 0){
-            totol = trunc(valueOne / valueTwo,3);
+            totol = trunc(valueOne / valueTwo, 3)
         }else{
-            totol = trunc(valueTwo);
+            totol = valueTwo
         }
     }
     if(this.operation === '%' && inputScreen.value !== ''){
